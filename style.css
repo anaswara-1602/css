@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:url('images/bg\ image.jpg') ;
+    background-size: cover;
+}
+header{
+    background-color: black;
+    
+}
+#logo{
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.navigation a{
+    border:1px solid white  ;
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    padding: 10px;
+}
+.navigation{
+    float: right;
+    margin-top: 34px;
+    margin-right: 5px;
+    
+}
+.navigation a:hover{
+    background-color: teal;
+    color: black;
+}
+.side{
+    color: white;
+   float: left;
+    margin: 100px;
+}
+.side h1{
+    margin-bottom: 15px;
+}
+.side li{
+    padding: 2px;
+    list-style: square;
+}
+.my_login{border: 1px solid red;
+    float: right;
+    margin-top: 60px;
+    background-color:beige;
+    height: 15em;
+    margin-right: 20px;padding: 30px;
+
+
+}
+#logg{
+    background-color: dodgerblue;
+    width: 100%;
+}
+
+    .container{
+        display: flex;
+        gap:30px;
+        text-align: center; 
+        float: left;
+        max-width: 100%;
+        margin-left: 230px;
+        margin-top: 30px;
+        
+        
+
+    }
+    .p-box{
+        background-color:  pink;
+        width: 250px;
+        border: 2px solid white;
+        
+
+    }
+    .p-box p{
+         font-size: 14px;
+
+    }
+    .p-box a{
+        display: inline-block;
+        margin: 10px;
+        color: red;
+    }
+    footer{
+         text-align:center ;
+         padding: 20px;
+         color: white;
+         margin-top: 600px;
+         font-size: x-large;
+    }
